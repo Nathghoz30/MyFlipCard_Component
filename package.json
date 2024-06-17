@@ -1,0 +1,18 @@
+{
+  "name": "@nathghoz30/flipcard",
+  "version": "1.0.1",
+  "description": "A flip card component",
+  "main": "flipCardComponent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "MyLibrary"
+  },
+  "author": "Nathghoz30",
+  "license": "ISC",
+  "keywords": [
+    "library", "flip", "card", "component"
+  ]
+}

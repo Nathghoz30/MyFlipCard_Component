@@ -13,6 +13,8 @@ class FlipCardElement extends HTMLElement {
         const backDesc = this.getAttribute('back-description');
         const action = this.getAttribute('action');
         const actionUrl = this.getAttribute('action-url');
+        const visibilityAction = this.getAttribute('action-visibility');
+
 
         this.shadowRoot.innerHTML = `
 
@@ -102,7 +104,9 @@ class FlipCardElement extends HTMLElement {
                     ${backDesc ? backDesc : ""}
                     <br><br>
                 </p>
-                <a class="btn btn-primary" href="${actionUrl ? actionUrl : "#"}">${action ? action : ""}</a>
+                ${visibilityAction == "true" ? `<a class="btn btn-primary" href="${actionUrl ? actionUrl : "#"}">${action ? action : ""}</a>` 
+                    : `<a style="display:none; class="btn btn-primary" href="${actionUrl ? actionUrl : "#"}">${action ? action : ""}</a>`}
+                
                 </div>
             </div>
             </div>

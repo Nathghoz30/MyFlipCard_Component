@@ -1,7 +1,7 @@
 {
   "name": "@nathghoz30/flipcard",
-  "version": "1.1.0",
-  "description": "Add action function to the flipcard",
+  "version": "1.1.1",
+  "description": "Add actionVisibility function to the flipcard",
   "main": "flipCardComponent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

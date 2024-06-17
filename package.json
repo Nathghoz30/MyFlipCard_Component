@@ -1,7 +1,7 @@
 {
   "name": "@nathghoz30/flipcard",
-  "version": "1.0.1",
-  "description": "A flip card component",
+  "version": "1.1.0",
+  "description": "Add action function to the flipcard",
   "main": "flipCardComponent.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,9 @@
   "author": "Nathghoz30",
   "license": "ISC",
   "keywords": [
-    "library", "flip", "card", "component"
+    "library",
+    "flip",
+    "card",
+    "component"
   ]
 }

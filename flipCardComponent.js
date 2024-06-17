@@ -88,11 +88,11 @@ class FlipCardElement extends HTMLElement {
               <img src="${imgFront}">
             </div>
             <div class="flip-box-back">
-              <h2>${backTitle ?? ""} </h2>
+              <h2>${backTitle ? backTitle : ""} </h2>
               <p style="text-align: justify;">
-                <span style="font-weight: bold;">${backIntro ?? ""}</span>
+                <span style="font-weight: bold;">${backIntro ? backIntro : ""}</span>
                 <br>
-                ${backDesc ?? ""}
+                ${backDesc ? backDesc : ""}
                 <br><br>
               </p>
               <a class="text-bottom btn btn-primary" href="/services_pages/fix.html">Découvrez nos offres !</a>
